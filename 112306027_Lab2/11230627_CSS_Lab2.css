@@ -1,0 +1,35 @@
+body {
+    color: #333;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+}
+
+.navbar {
+    position: relative;
+    top: 2em;
+    left: 1em;
+    width: 20em;
+    background-color: lightblue;
+}
+
+@media all {
+    body {
+        font-size: 16px;
+    }
+    .navbar {
+        background-color: lightblue;
+    }
+}
+
+@media print {
+    body {
+        font-size: 12px;
+    }
+    .navbar {
+        display: none;
+    }
+}
